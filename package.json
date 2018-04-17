@@ -1,6 +1,6 @@
 {
   "name": "quickdash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dashboard boilerplate for ReactJS",
   "main": "index.js",
   "repository": "https://github.com/kaueDM/quickdash.git",
