@@ -1,0 +1,31 @@
+{
+  "name": "quickdash",
+  "version": "1.0.0",
+  "description": "Dashboard boilerplate for ReactJS",
+  "main": "index.js",
+  "repository": "https://github.com/kaueDM/quickdash.git",
+  "author": "Kauê da Maia <kaue.maia123@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-solid": "^5.0.10",
+    "@fortawesome/react-fontawesome": "^0.0.18",
+    "node-sass-chokidar": "^1.2.2",
+    "npm-run-all": "^4.1.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.4",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.79.1"
+  },
+  "scripts": {
+    "start:css": "node-sass ./src/sass/main.scss ./src/css/style.css -w",
+    "start:js": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start": "npm-run-all -p start:css start:js"
+  }
+}

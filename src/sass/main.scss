@@ -1,0 +1,13 @@
+// global standards
+@import "./basics/standards";
+
+//basics
+@import "./basics/animations";
+@import "./basics/fonts";
+@import "./basics/media_queries";
+@import "./basics/mixins";
+
+//components
+
+//views
+@import "./views/dashboard-container";
