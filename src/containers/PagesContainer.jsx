@@ -1,6 +1,6 @@
 import React from 'react'
 import { E404 } from '../pages'
-import { pagesRoutes } from '../routes/pages'
+import { pagesRoutes } from '../routes/pages.jsx'
 import { Switch, Route } from 'react-router-dom'
 
 export default class PagesContainer extends React.Component {

@@ -7,9 +7,6 @@
   "author": "Kauê da Maia <kaue.maia123@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.5",
-    "@fortawesome/fontawesome-free-solid": "^5.0.10",
-    "@fortawesome/react-fontawesome": "^0.0.18",
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.2",
     "prop-types": "^15.6.1",

@@ -6,8 +6,7 @@
 @import "./basics/fonts";
 @import "./basics/media_queries";
 @import "./basics/mixins";
+@import "./basics/variables";
 
 //components
-
-//views
-@import "./views/dashboard-container";
+@import "./components/app_header"

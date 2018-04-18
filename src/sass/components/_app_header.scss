@@ -1,0 +1,40 @@
+.app_header {
+    background-color: $dark-blue;
+    height: 60px;
+    width: 100%;
+    position: relative;
+
+    &__left {
+        left: 10px;
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: $white;
+    }
+
+    &__title {
+        font-size: 22px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+        color: $white;
+        font-weight: 700;
+    }
+
+    &__right {
+        right: 10px;
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: $white;
+
+        &--icon {
+            position: absolute;
+            right: 6px;
+        }
+    }
+}
