@@ -9,4 +9,9 @@
 @import "./basics/variables";
 
 //components
-@import "./components/app_header"
+@import "./components/app_header";
+@import "./components/app_sidebar";
+
+//containers
+@import "./containers/app_container";
+

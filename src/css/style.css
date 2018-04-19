@@ -14,14 +14,18 @@ body {
   background-color: #00102C;
   height: 60px;
   width: 100%;
-  position: relative; }
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999; }
   .app_header__left {
     left: 10px;
     font-size: 18px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    cursor: pointer; }
   .app_header__title {
     font-size: 22px;
     position: absolute;
@@ -41,3 +45,10 @@ body {
     .app_header__right--icon {
       position: absolute;
       right: 6px; }
+
+.app_container {
+  height: 100vh;
+  width: 100%;
+  padding-top: 60px; }
+  .app_container__content {
+    padding: 10px; }

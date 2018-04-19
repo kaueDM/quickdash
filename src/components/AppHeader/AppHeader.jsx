@@ -5,11 +5,12 @@ export default class AppHeader extends React.Component {
     constructor(props) {
         super(props)
         this.title = props.title
+        this.handleSidebar = props.handleSidebar
         this.handleLogoff = props.handleLogoff
     }
 
     render() {
-        const { title, handleLogoff } = this.props
+        const { title, handleSidebar, handleLogoff } = this.props
 
         const trigger = (
             <span className='app_header__right--icon'>
@@ -20,7 +21,7 @@ export default class AppHeader extends React.Component {
         return (
             <div className='app_header'>
                 <div className='app_header__left'>
-                    <Icon name='bars' />
+                    <Icon name='bars' onClick={handleSidebar} />
                 </div>
                 <div className='app_header__title'>{title}</div>
 
